@@ -1,5 +1,5 @@
 body {
-	background-color: #B2E9FD;
+	background-color: rgb(10, 112, 150);
 }
 
 .header h2 {
@@ -7,10 +7,47 @@ body {
 }
 
 .header p {
-	color: #50524F;
+	color:white;
+	text-emphasis: bold;
 }
 
 .results {
 	margin-top: 20px;
 }
 
+.info1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+	line-height: .7;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.movie {
+	border-style: solid;
+	border-color: solid black;
+	margin: 3px;
+
+}
+
+.btn btn-primary {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #4CAF50;
+	padding: 4px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; 
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 8px;
+  }
+
+button:hover {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
