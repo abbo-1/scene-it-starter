@@ -18,7 +18,12 @@ document.addEventListener('DOMContentLoaded', function() {
       return movieHTML.join('');
     }
   
-    var content = document.getElementById('movies-container');
-    content.innerHTML = renderMovies(movieData);
+    document.getElementById('search-form').addEventListener('submit',function(e){
+        e.preventDefault();
+        var content = document.getElementById('movies-container');
+        content.innerHTML = renderMovies(movieData);
+    });
+
+//some notes and information
     
   });
